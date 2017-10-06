@@ -1,6 +1,6 @@
 'use strict';
 
-var GroceryList = require(process.cwd() + '/script/model/grocery-list');
+var GroceryList = require('./model/grocery-list');
 
 var application = {
   init: function(list) {
