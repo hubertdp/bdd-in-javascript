@@ -10,7 +10,8 @@ This repo is using node v6.9.1 (npm v3.10.8).
 
 Each commit corresponds to a part of the tutorial:
 
-  - part-one -> [https://custardbelly.com/blog/blog-posts/2014/01/08/bdd-in-js-cucumberjs/index.html](https://custardbelly.com/blog/blog-posts/2014/01/08/bdd-in-js-cucumberjs/index.html)
+  - [BDD in JavaScript: CucumberJS](https://custardbelly.com/blog/blog-posts/2014/01/08/bdd-in-js-cucumberjs/index.html)
+  - [BDD in JavaScript II: CucumberJS, the World and Background](https://www.custardbelly.com/blog/blog-posts/2014/01/22/cucumberjs-world/index.html)
 
 Hope you learn as much as I did.
 

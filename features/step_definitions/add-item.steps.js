@@ -2,26 +2,25 @@
 
 var {defineSupportCode} = require('cucumber');
 var assert = require('assert');
-var GroceryList = require(process.cwd() + '/script/model/grocery-list');
 
 defineSupportCode(function({Given, When, Then}) {
 
-	var myList;
-	var listItem = 'apple';
+	var listItem;
 
   Given(/^I have an empty grocery list$/, function() {
-		myList = GroceryList.create();
+		this.groceryListApplication.list.empty();
   });
 
   When(/^I add an item to the list$/, function() {
-		myList.add(listItem);
+    listItem = this.createGroceryItem();
+		this.groceryListApplication.list.add(listItem);
   });
 
   Then(/^The grocery list contains a single item$/, function() {
-		assert.equal(myList.getAll().length, 1, 'Grocery List should grow by one item.');
+		assert.equal(this.groceryListApplication.list.getAll().length, 1, 'Grocery List should grow by one item.');
   });
 
   Then(/^I can access that item from the grocery list$/, function() {
-		assert.notEqual(myList.getItemIndex(listItem), -1, 'Added item should be found at non-negative index.');
+		assert.notEqual(this.groceryListApplication.list.getItemIndex(listItem), -1, 'Added item should be found at non-negative index.');
   });
 });
