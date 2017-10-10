@@ -12,6 +12,8 @@ Each commit corresponds to a part of the tutorial:
 
   - [BDD in JavaScript: CucumberJS](https://custardbelly.com/blog/blog-posts/2014/01/08/bdd-in-js-cucumberjs/index.html)
   - [BDD in JavaScript II: CucumberJS, the World and Background](https://www.custardbelly.com/blog/blog-posts/2014/01/22/cucumberjs-world/index.html)
+  - [BDD in JavaScript III: CucumberJS and Test Automation](https://www.custardbelly.com/blog/blog-posts/2014/01/29/cucumberjs-build/index.html)
+    I only got a modified `gulp` watch alternative working in this part
 
 Hope you learn as much as I did.
 

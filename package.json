@@ -1,5 +1,7 @@
 {
   "devDependencies": {
-    "cucumber": "^3.0.4"
+    "cucumber": "^3.0.4",
+    "gulp": "^3.9.1",
+    "node-notifier": "^5.1.2"
   }
 }
